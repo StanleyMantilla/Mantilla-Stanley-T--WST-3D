@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+}
+
+h1 {
+    margin-top: 90px;
+    color: black;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+/*  Activity 2:  Styling color info table */
+.color-info {
+    margin-top: 10px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+td {
+    border: 1px solid #333;
+    padding: 10px 30px;
+    min-width: 150px;
+}
+
+td:first-child {
+    font-weight: normal;
+    background-color: auto;
+}
+
+#color-display {
+    min-width: 100px;
+    text-transform: capitalize
+}
+
+/*Back Button*/
+
+.back-button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 30px;
+    margin: 5px;
+    transition: .3s;
+
+}
+
+.back-button {
+    background: #2997ff;
+}
+
+.back-button:hover {
+    background: #39ffb6;
+    color: black;
+}
+
+.back-button {
+    background: #2997ff;
+}
+
+.back-button:hover {
+    background: #39ffb6;
+    color: black;
+}

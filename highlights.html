@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Highlights</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--Navigation-->
+    <nav class="navbar">
+        <div class="Logo">
+            <img src="images/Logo.jpg" alt="Logo">
+            <h2 class="logo">TANFINITY</h2>
+        </div>
+
+        <ul class="navlinks">
+            <li><a href="index.html">ABOUT</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Highlights -->
+    <section class="highlights">
+
+        <h1>MY HIGHLIGHTS</h1>
+
+        <p>Click a card to learn more about me.</p>
+
+        <!--About me-->
+        <div class="card-container">
+            <div class="card-item">
+                <button class="card" onclick="goToabout()">
+                    <img src="images/profile.jpg" alt="ABOUT ME">
+                    <p>About Me</p>
+                </button>
+            </div>
+
+            <!-- Interests -->
+            <div class="card-item">
+                <button class="card" onclick="goTointerests()">
+                    <img src="images/myinterests.jpg" alt="MY INTERESTS">
+                    <p>My Interests</p>
+                </button>
+            </div>
+
+            <!-- Short Goal -->
+            <div class="card-item">
+                <button class="card" onclick="goToShortTermgoals()">
+                    <img src="images/shrottermgoal.jpg" alt="SHORT TERM GOAL">
+                    <p>My Short Goal</p>
+                </button>
+            </div>
+
+            <!-- Long Goal -->
+            <div class="card-item">
+                <button class="card" onclick="goToLongTermgoals()">
+                    <img src="images/Longgoal.jpg" alt="LONG TERM GOAL">
+                    <p>My Long Goal</p>
+                </button>
+            </div>
+
+            <!-- Skills -->
+            <div class="card-item">
+                <button class="card" onclick="goToSkills()">
+                    <img src="images/Picture.jpg" alt="MY SKILLS">
+                    <p>My Skills</p>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
